@@ -19,6 +19,8 @@ body {
     background-image: url(../assets/fundo.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: var(--cor--primaria);
   }
 
@@ -44,7 +46,7 @@ body {
 
 .pai {
     padding: 5% 15%;
-    display: flex;
+    display:flex;
     align-items:center;
     justify-content: space-between;
     gap:82px;
@@ -126,12 +128,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-
-    .body {
-        box-sizing:border-box;
-        background-color: var(--cor--tercearia);
-        color: var(--cor--primaria);
-      }
 
     .cabecalho {
         padding: 10%;
